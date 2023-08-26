@@ -32,6 +32,10 @@ We use the pretained model, and take careful for freeze the model weight.
 
 Futhermore, the target of this project is to detect if 'House' in the picture is damaged, it is essentially a binary classfication model. Thus we should modify the number of feature in "fn" layer 2048->512->2(dim = 1), and to avoid overfitting set drop node rate is 20%.
 
+Use the Grad-CAM to create damage heatmap
+--
+![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/9d84d4ca-2f72-41fe-8987-e9c2ca44b72f)
+
 
 
 

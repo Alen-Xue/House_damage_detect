@@ -41,6 +41,8 @@ Use the Grad-CAM to create damage heatmap
 
 Add the damge score:
 
+The more severe the damage, the lower the score, and conversely the higher the score
+
 ![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/b5150739-c632-4636-8cda-64c941967b90)
 
 

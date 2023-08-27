@@ -39,6 +39,11 @@ Use the Grad-CAM to create damage heatmap
 --
 ![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/9d84d4ca-2f72-41fe-8987-e9c2ca44b72f)
 
+Add the damge score:
+
+![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/b5150739-c632-4636-8cda-64c941967b90)
+
+
 Grad-CAM (Gradient-weighted Class Activation Mapping) is a technique that provides insight into the reasons behind neural network decisions. Specifically, it generates a heatmap of “class-discriminative” regions, allowing us to visually identify which parts of an image contribute the most (or least) to a given output classification.
 
 For a task such as detecting damage in pictures, Grad-CAM can highlight areas that the model finds most indicative of damage. Here’s a step-by-step explanation of how it works:

@@ -66,6 +66,14 @@ In the context of damage detection:
 
 Remember that while Grad-CAM can give an intuitive understanding of which areas the model is focusing on, it doesn’t provide an absolute measure of the model’s accuracy or reliability. If the model itself isn’t accurate or if it has been trained on poorly labeled data, the Grad-CAM visualizations might not correctly highlight damaged areas.
 
+Use more deeper layer model ResNet101 and add attention function.
+--
+Merge the ResNet101 and attention function (SE-block) can make model pay more attention on the feature areas.
+
+After add attention function:
+![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/18e11cce-3e44-4feb-8130-1268d1a17d2a)
+
+
 
 
 

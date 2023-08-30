@@ -37,7 +37,7 @@ Futhermore, the target of this project is to detect if 'House' in the picture is
 
 Use the Grad-CAM to create damage heatmap
 --
-![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/9d84d4ca-2f72-41fe-8987-e9c2ca44b72f)
+![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/b5150739-c632-4636-8cda-64c941967b90)
 
 Add the damge score:
 

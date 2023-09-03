@@ -73,7 +73,32 @@ Merge the ResNet101 and attention function (SE-block) can make model pay more at
 After add attention function:
 ![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/18e11cce-3e44-4feb-8130-1268d1a17d2a)
 
+Add Transformer part to increase ability of model to detect the damage part
+--
 
+Adding Transformer to a traditional convolutional neural network, such as ResNet101, brings the following improvements and enhancements:
 
+Better long-range dependency modeling: while traditional convolutional layers capture local information, the Transformer is specifically designed to capture long-range dependencies. By incorporating the Transformer among ResNet, the model can utilize both local features (provided by the convolutional layer) and global context (provided by the Transformer).
 
+Adaptive receptive fields: As opposed to a fixed-size convolutional kernel, the Transformer can dynamically adapt its receptive fields, which allows the model to trade off features based on the complexity of the input data.
+
+Better performance: On certain tasks, a convolutional model incorporating the Transformer may achieve better performance. For example, ViT (Vision Transformer) has demonstrated similar or better performance than state-of-the-art convolutional models on image classification tasks.
+
+Better expressive power: Transformer's self-attention mechanism captures complex patterns and relationships, which enhances the expressive power of the model.
+
+End-to-end attentional visualization: Transformer's attentional mechanism provides us with a tool to intuitively understand how the model builds relationships between inputs, which is beneficial for model interpretation and visualization.
+
+However, introducing Transformer into ResNet101 has its challenges and tradeoffs:
+
+Computational cost: Transformers are typically more computationally intensive than convolutional layers, especially when the input size is large. This can lead to slower training and inference.
+
+Memory usage: Transformer's self-attention mechanism requires storing attentional weights, which can lead to out-of-memory problems on large datasets.
+
+Training Challenges: While Transformers perform well on some tasks, they may require finer tuning and more data to avoid overfitting.
+
+Overall, adding Transformers to ResNet101 can help the model capture richer and more complex patterns. However, it also introduces additional computational and memory costs, as well as possible training challenges. These tradeoffs vary from task to task and dataset to dataset, so it is best to experiment in specific application scenarios to determine the best strategy.
+
+Add trsnformer:
+
+![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/bbbfb08f-6e76-40dd-b346-367011bfd1a9)
 

@@ -102,5 +102,6 @@ The Accuracy of add Transformer is 98.26%
 
 Add transformer:
 
-![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/bbbfb08f-6e76-40dd-b346-367011bfd1a9)
+![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/acffc49b-0382-41ed-a4ec-71c3acfdbe0d)
+
 

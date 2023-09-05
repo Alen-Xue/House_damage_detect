@@ -98,7 +98,9 @@ Training Challenges: While Transformers perform well on some tasks, they may req
 
 Overall, adding Transformers to ResNet101 can help the model capture richer and more complex patterns. However, it also introduces additional computational and memory costs, as well as possible training challenges. These tradeoffs vary from task to task and dataset to dataset, so it is best to experiment in specific application scenarios to determine the best strategy.
 
-Add trsnformer:
+The Accuracy of add Transformer is 98.26%
+
+Add transformer:
 
 ![image](https://github.com/Alen-Xue/House_damage_detect/assets/126217366/bbbfb08f-6e76-40dd-b346-367011bfd1a9)
 
